@@ -13,7 +13,7 @@
 SRC = src/ft_tohex.c src/ft_putchar_fd.c src/ft_putnbr_fd.c src/ft_putstr_fd.c \
       src/ft_printf.c src/ft_putpointer_fd.c src/ft_putnbr_u.c
 OBJS = ${SRC:.c=.o}
-NAME = src/libftprintf.a
+NAME = libftprintf.a
 CC = gcc 
 FLAGS = -Wall -Werror -Wextra
 
